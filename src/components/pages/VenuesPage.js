@@ -2,19 +2,19 @@ import {Component} from "react";
 import React from "react";
 import Menu from '../Menu';
 import '../../styles/Page.css';
-import Table from "../tables/AnimalsTable";
+import Table from "../tables/VenuesTable";
 
-class AnimalsPage extends Component {
+class VenuesPage extends Component {
 
     render() {
         return (
             <div className="Page">
                 <Menu />
-                <h1>Animals</h1>
+                <h1>Venues</h1>
                 <Table />
             </div>
         );
     }
 }
 
-export default AnimalsPage;
+export default VenuesPage;
